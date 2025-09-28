@@ -21,7 +21,7 @@ const handleSignOut = async () =>{
     const user = {name: 'Satyajeet',email: 'ab.xyz.com' }
 
   return (
-    <DropdownMenu>
+  <DropdownMenu>
   <DropdownMenuTrigger asChild>
     <Button variant="ghost" className="flex items-center gap-3 text-gray-400 hover:text-yellow ">
         <Avatar className="h-8 w-8">
